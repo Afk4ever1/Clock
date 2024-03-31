@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  background-color: #faf8f8;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h2 {
+  font-size: 40px;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.time {
+  display: inline-block;
+  margin: 10px;
+  font-size: 25px;
+}
+.time span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time span:nth-child(1) {
+  height: 50px;
+  width: 180px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #faf8f8;
+  background: #008c9e;
+}
+.time:nth-of-type(2) span:nth-child(1) {
+  background-color: #0fb40a;
+}
+.time:nth-of-type(3) span:nth-child(1) {
+  background-color: #c54800;
+}
+.time:nth-of-type(4) span:nth-child(1) {
+  background-color: #22a568;
+}
+
+.time span:nth-child(2) {
+  height: 130px;
+  width: 180px;
+  color: #faf8f8;
+  background: #00b2cb;
+  font-size: 90px;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+}
+.time:nth-of-type(2) span:nth-child(2) {
+  background-color: #8ee80e;
+}
+.time:nth-of-type(3) span:nth-child(2) {
+  background-color: #ff5d00;
+}
+.time:nth-of-type(4) span:nth-child(2) {
+  background-color: #2ad587;
+}
